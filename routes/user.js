@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
 
     res.json({ isSignup: true, message: "signup successfull" });
   } catch (ex) {
-    res.json({ isSignup: false, moduleessage: ex });
+    res.json({ isSignup: false, message: ex });
   }
 });
 
