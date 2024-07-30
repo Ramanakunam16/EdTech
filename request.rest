@@ -1,0 +1,9 @@
+post http://localhost:5000/api/user
+Content-Type: application/json
+
+{
+    "name":"ramana reddy",
+    "email":"ramanakunam16@gmail.com",
+    "password":"Chinna1366##",
+    "passwordConfirmation":"Chinna1366##"
+}
